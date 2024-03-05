@@ -1,0 +1,105 @@
+/* login page styling  */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+  }
+  
+ .signup-container, .login-container {
+    max-width: 360px;
+    background: #000000; 
+    border-radius: 28px;
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  /* label {
+    color: #fff; 
+    margin-bottom: 5px; 
+    font-size: 0.9em; 
+  } */
+  
+  input {
+    width: 95%; 
+    height: 42px;
+    background: #1F191966 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+    mix-blend-mode: normal;
+    opacity: 1;
+        border: none; 
+    border-radius: 22px; 
+    color: #fff; 
+    padding: 10px;
+    margin-bottom: 20px; 
+   
+  }
+  
+  input::placeholder {
+    color: #FFFFFF; 
+    opacity: 1; 
+  }
+  
+  
+  button {
+    background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    border: 2px solid #8CFF0026;
+    text-align: center;
+    opacity: 1;
+    width: 100%; 
+    height: 42px;
+    padding: 15px;
+    border: none;
+    border-radius: 22px; 
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #000; 
+    margin-top: 47px;
+    
+
+  }
+  button span{
+    opacity: 1;
+    mix-blend-mode: normal;
+    color: #FFFFFF8C;
+    width: 47px;
+    height: 40px;
+    font: normal normal bold 16px/21px Mulish;
+    text-align: center;
+letter-spacing: 0.02px;
+opacity: 1;
+  }
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+  .forgot-password, .login-link, .login-link a{
+    color:  #36A546; 
+    
+    text-align: center;
+    margin-top: 26px; 
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+
+  .electric {
+    
+    color: #353f36cc;
+    border:1px #000000;
+    font: normal normal normal 16px/21px Mulish;
+    text-align: center;
+    font-size: 0.9em; 
+    cursor: pointer;
+    margin-bottom: 49px;
+  }
+  /* dashboard css */
+  
+
